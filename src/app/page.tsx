@@ -88,7 +88,13 @@ export default function Page() {
           </div>
 
           <Avatar className="size-28">
-            <AvatarImage alt={RESUME_DATA.name} src={RESUME_DATA.avatarUrl} />
+            <AvatarImage
+              className="
+    
+              "
+              alt={RESUME_DATA.name}
+              src={RESUME_DATA.avatarUrl}
+            />
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
@@ -154,6 +160,26 @@ export default function Page() {
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2">{education.degree}</CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+        <Section>
+          <h2 className="text-xl font-bold">Activites</h2>
+          {RESUME_DATA.activities.map((activities) => {
+            return (
+              <Card key={activities.school}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="font-semibold leading-none">
+                      {activities.school}
+                    </h3>
+                    <div className="text-sm tabular-nums text-gray-500">
+                      {activities.start} - {activities.end}
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2">{activities.degree}</CardContent>
               </Card>
             );
           })}

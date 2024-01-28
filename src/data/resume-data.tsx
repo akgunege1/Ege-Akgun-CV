@@ -1,278 +1,161 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Kaan Demir",
+  initials: "KD",
+  location: "Samsun, Konya, Turkey",
+  locationLink: "https://www.google.com/maps/place/Samsun",
   about:
     "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+    "As a Full Stack Developer, I excel in both frontend and backend development. I’m passionate about crafting visually appealing, user-friendly web applications and optimizing server-side performance. Eager to contribute my skills to deliver end-to-end solutions.",
+  avatarUrl:
+    "https://media.licdn.com/dms/image/D4D03AQGm0SG9cdvnCA/profile-displayphoto-shrink_200_200/0/1703268593155?e=1712188800&v=beta&t=4KnKnna1qvoHuCq-R6JY0dKzK1oQcwVjJmzCkakExtY",
+  personalWebsiteUrl: "https://",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "buzzka.bussiness@gmail.com",
+    tel: "+90 530 890 1995",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/buzzkaan",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/buzzka/",
         icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Selcuk University",
+      degree: "Bachelor's Degree in Software Engineering",
+      start: "2020",
+      end: "2024",
+    },
+  ],
+  activities: [
+    {
+      school: "SelcukChain",
+      degree:
+        " ”It is a club where educational activities, events, and similar club activities on Blockchain are organized, and where I actively participate, assisting people in coding and other subjects",
+      start: "2023",
+      end: "",
+    },
+    {
+      school: "GSB Hackaton",
+      degree:
+        "The GSB Blockchain Summit and Blockchain Youth Hackathon, held in Ankara on December 15-17, 2023.",
+      start: "2023",
+      end: "",
     },
   ],
   work: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
+      company: "TrueFeedBack Inc",
+      link: "https://truefeedback.io/",
+      badges: ["Hybrid"],
+      title: "Full Stack Developer",
+      start: "2022",
+      end: "Sept 2023",
       description:
         "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
     },
   ],
   skills: [
     "JavaScript",
     "TypeScript",
-    "React/Next.js/Remix",
+    "React/Next.js",
     "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "Fastify",
+    "TailwindCSS",
+    "Chakra UI",
+    "PostgreSQL",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "Buildify",
+      techStack: ["TypeScript", "Next.js", "PostgreSQL", "TailwindCSS"],
+      description:
+        "I developed a platform with the help of OpenAI that allows users to create components with prompts. These generated codes are integrated into a live user interface, enabling users to edit the code from OpenAI through an online IDE and observe their work.",
+      link: {
+        label: "",
+        href: "",
+      },
+    },
+    {
+      title: "PremarketCap",
       techStack: [
         "Side Project",
+        "Full Stack",
         "TypeScript",
         "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "TailwindCSS",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description:
+        "The project I developed, taking an active role in the company, is a website where users can list their own projects and manage funds, capital, airdrops, nodes, and portfolio tracking. This platform adopts a CoinMarketCap-style logic, providing users assistance in various areas.",
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "https://premarketcap.vercel.app/",
+        href: "https://premarketcap.vercel.app/",
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Premarket Dasboard",
+      techStack: [
+        "Side Project",
+        "Full Stack",
+        "TypeScript",
+        "Next.js",
+        "TailwindCSS",
+      ],
       description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
+        "The Admin Dashboard of the PremarketCap project is a web application where various CRUD operations such as approving user applications, managing new projects, and handling operations related to capital, airdrops, funds, etc., are performed.",
       link: {
         label: "github.com",
         href: "https://jarocki.me/",
       },
     },
     {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Evolve360",
+      techStack: ["Freelance", "React", "GSAP", "i18n", "ChakraUi"],
       description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
+        "The animated website providing information about the fitness equipment I’ve created as a freelancer",
       link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
+        label: "evolve360.gr",
+        href: "https://evolve360.gr",
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "ChainAuth",
+      techStack: ["Hackaton Project", "NextJs", "Front End", "BlockChain"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "The blockchain-based authentication system we developed during the hackathon, which includes smart contracts.",
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "",
+        href: "",
       },
     },
     {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
+      title: "Todo-App",
+      techStack: ["React"],
+      description:
+        "Stay organized with our simple and efficient todo app. Manage tasks effortlessly and boost your productivity. Never miss a deadline again!",
       link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
+        label: "https://buzzkaan.github.io/Todo-app/",
+        href: "https://buzzkaan.github.io/Todo-app/",
       },
     },
     {
-      title: "Parabol",
-      techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
+      title: "Basic Fitness App",
+      techStack: ["Flutter/Dart"],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+        "Get fit effortlessly with our easy-to-use fitness app. Personalized workouts, quick tracking, and instant motivation. Your journey to a healthier you starts here!",
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "https://buzzkaan.github.io/Todo-app/",
+        href: "https://buzzkaan.github.io/Todo-app/",
       },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;

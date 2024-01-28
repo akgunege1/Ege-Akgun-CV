@@ -15,8 +15,10 @@ import ParabolLogo from "./parabol.svg";
 import TastyCloudLogo from "./tastycloud.png";
 import YearProgressLogo from "./yearprogress.svg";
 import Minimal from "./minimal.svg";
+import PPLogo from "./pp.jpg";
 
 export {
+  PPLogo,
   ConsultlyLogo,
   AmbitLogo,
   BarepapersLogo,
