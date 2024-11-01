@@ -1,29 +1,29 @@
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Kaan Demir",
-  initials: "KD",
-  location: "Samsun, Konya, Turkey",
-  locationLink: "https://www.google.com/maps/place/Samsun",
+  name: "Berat Ege Akgün",
+  initials: "BEA",
+  location: "Kocaeli, Konya, Turkey",
+  locationLink: "https://www.google.com/maps/place/Kocaeli",
   about:
     "Full Stack Engineer focused on building products with extra attention to detail",
   summary:
     "As a Full Stack Developer, I excel in both frontend and backend development. I’m passionate about crafting visually appealing, user-friendly web applications and optimizing server-side performance. Eager to contribute my skills to deliver end-to-end solutions.",
   avatarUrl:
-    "https://media.licdn.com/dms/image/D4D03AQGm0SG9cdvnCA/profile-displayphoto-shrink_200_200/0/1703268593155?e=1712188800&v=beta&t=4KnKnna1qvoHuCq-R6JY0dKzK1oQcwVjJmzCkakExtY",
+    "https://avatars.githubusercontent.com/u/146973881?s=400&u=dc48299506081eb969395ff89642c029025d0492&v=4",
   personalWebsiteUrl: "https://",
   contact: {
-    email: "buzzka.bussiness@gmail.com",
-    tel: "+90 530 890 1995",
+    email: "akgunegebusiness@gmail.com",
+    tel: "+90 545 927 8333",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/buzzkaan",
+        url: "https://github.com/akgunege1",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/buzzka/",
+        url: "https://www.linkedin.com/in/berat-ege-akgün-284994294/",
         icon: LinkedInIcon,
       },
     ],
@@ -31,9 +31,9 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Selcuk University",
-      degree: "Bachelor's Degree in Software Engineering",
-      start: "2020",
-      end: "2024",
+      degree: "Student in Computer Engineering",
+      start: "2023",
+      end: "",
     },
   ],
   activities: [
@@ -45,7 +45,7 @@ export const RESUME_DATA = {
       end: "",
     },
     {
-      school: "GSB Hackaton",
+      school: "TUBITAK",
       degree:
         "The GSB Blockchain Summit and Blockchain Youth Hackathon, held in Ankara on December 15-17, 2023.",
       start: "2023",
@@ -54,107 +54,66 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "TrueFeedBack Inc",
-      link: "https://truefeedback.io/",
-      badges: ["Hybrid"],
-      title: "Full Stack Developer",
-      start: "2022",
-      end: "Sept 2023",
+      company: "Selcukchain",
+      link: "https://www.selcukchain.com/",
+      badges: [""],
+      title: "Vice President",
+      start: "October 2023",
+      end: "",
       description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
+        "As a community , we are trying to improve ourselves. We are trying to create projects and work on Blockchain technologies together.",
     },
   ],
   skills: [
     "JavaScript",
-    "TypeScript",
-    "React/Next.js",
-    "Node.js",
-    "Fastify",
-    "TailwindCSS",
-    "Chakra UI",
-    "PostgreSQL",
+    "Java",
+    "HTML",
+    "CSS",
+    "SQL",
+    "Git/Github",
+    "C++",
+    "Deutsch as a beginner",
+    "English C2 with certificate",
+  ],
+  Hobbies: [
+    "Listening to music",
+    "Swimming",
+    "Motorsports",
+    "Reading",
+    "Body building",
+    "Motocycle riding",
+    "Motocycle maintaining and repairing",
+    "Sailing",
   ],
   projects: [
     {
-      title: "Buildify",
-      techStack: ["TypeScript", "Next.js", "PostgreSQL", "TailwindCSS"],
+      title: "AI Powered Smart Industry4.0 Settlement Project",
+      techStack: ["Python"],
       description:
-        "I developed a platform with the help of OpenAI that allows users to create components with prompts. These generated codes are integrated into a live user interface, enabling users to edit the code from OpenAI through an online IDE and observe their work.",
+        "I am developing a platform with the help of AI that allows users to create industrial areas which are capable of self-sustain. With the power of AI, my target is creating a high efficient workspace with clean energy sources for the community.",
       link: {
         label: "",
         href: "",
       },
     },
     {
-      title: "PremarketCap",
-      techStack: [
-        "Side Project",
-        "Full Stack",
-        "TypeScript",
-        "Next.js",
-        "TailwindCSS",
-      ],
+      title: "My Landing Page",
+      techStack: ["HTML/CSS"],
       description:
-        "The project I developed, taking an active role in the company, is a website where users can list their own projects and manage funds, capital, airdrops, nodes, and portfolio tracking. This platform adopts a CoinMarketCap-style logic, providing users assistance in various areas.",
-      link: {
-        label: "https://premarketcap.vercel.app/",
-        href: "https://premarketcap.vercel.app/",
-      },
-    },
-    {
-      title: "Premarket Dasboard",
-      techStack: [
-        "Side Project",
-        "Full Stack",
-        "TypeScript",
-        "Next.js",
-        "TailwindCSS",
-      ],
-      description:
-        "The Admin Dashboard of the PremarketCap project is a web application where various CRUD operations such as approving user applications, managing new projects, and handling operations related to capital, airdrops, funds, etc., are performed.",
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Evolve360",
-      techStack: ["Freelance", "React", "GSAP", "i18n", "ChakraUi"],
-      description:
-        "The animated website providing information about the fitness equipment I’ve created as a freelancer",
-      link: {
-        label: "evolve360.gr",
-        href: "https://evolve360.gr",
-      },
-    },
-    {
-      title: "ChainAuth",
-      techStack: ["Hackaton Project", "NextJs", "Front End", "BlockChain"],
-      description:
-        "The blockchain-based authentication system we developed during the hackathon, which includes smart contracts.",
+        "I created a landing page for a little quiz. This is a tradition for our new members of Selcukchain",
       link: {
         label: "",
         href: "",
       },
     },
     {
-      title: "Todo-App",
-      techStack: ["React"],
+      title: "CryptoZombies TR",
+      techStack: ["Phython"],
       description:
-        "Stay organized with our simple and efficient todo app. Manage tasks effortlessly and boost your productivity. Never miss a deadline again!",
+        "I am developing a platform with the help of AI that allows users to create industrial areas which are capable of self-sustain. With the power of AI, my target is creating a high efficient workspace with clean energy sources for the community.",
       link: {
-        label: "https://buzzkaan.github.io/Todo-app/",
-        href: "https://buzzkaan.github.io/Todo-app/",
-      },
-    },
-    {
-      title: "Basic Fitness App",
-      techStack: ["Flutter/Dart"],
-      description:
-        "Get fit effortlessly with our easy-to-use fitness app. Personalized workouts, quick tracking, and instant motivation. Your journey to a healthier you starts here!",
-      link: {
-        label: "https://buzzkaan.github.io/Todo-app/",
-        href: "https://buzzkaan.github.io/Todo-app/",
+        label: "",
+        href: "",
       },
     },
   ],

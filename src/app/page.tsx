@@ -2,17 +2,15 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { CommandMenu } from "@/components/command-menu";
-import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
+import Image from 'next/image'
 
-export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} | ${RESUME_DATA.about}`,
-  description: RESUME_DATA.summary,
-};
+
+
 
 export default function Page() {
   return (
@@ -89,9 +87,7 @@ export default function Page() {
 
           <Avatar className="size-28">
             <AvatarImage
-              className="
-    
-              "
+              className=""
               alt={RESUME_DATA.name}
               src={RESUME_DATA.avatarUrl}
             />
@@ -189,6 +185,15 @@ export default function Page() {
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
               return <Badge key={skill}>{skill}</Badge>;
+            })}
+          </div>
+        </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">Hobbies</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.Hobbies.map((Hobbies) => {
+              return <Badge key={Hobbies}>{Hobbies}</Badge>;
             })}
           </div>
         </Section>
