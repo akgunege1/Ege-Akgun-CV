@@ -6,9 +6,9 @@ export const RESUME_DATA = {
   location: "Kocaeli, Konya, Turkey",
   locationLink: "https://www.google.com/maps/place/Kocaeli",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "Self-taught Frontend Developer.",
   summary:
-    "As a Full Stack Developer, I excel in both frontend and backend development. I’m passionate about crafting visually appealing, user-friendly web applications and optimizing server-side performance. Eager to contribute my skills to deliver end-to-end solutions.",
+    "As a Frontend Developer, I am currently studying on JS. I am passionate about improving myself about anything. I want to be a Blockchain Developer in the future.",
   avatarUrl:
     "https://avatars.githubusercontent.com/u/146973881?s=400&u=dc48299506081eb969395ff89642c029025d0492&v=4",
   personalWebsiteUrl: "https://",
@@ -44,13 +44,6 @@ export const RESUME_DATA = {
       start: "2023",
       end: "",
     },
-    {
-      school: "TUBITAK",
-      degree:
-        "The GSB Blockchain Summit and Blockchain Youth Hackathon, held in Ankara on December 15-17, 2023.",
-      start: "2023",
-      end: "",
-    },
   ],
   work: [
     {
@@ -72,7 +65,7 @@ export const RESUME_DATA = {
     "SQL",
     "Git/Github",
     "C++",
-    "Deutsch as a beginner",
+    "Deutsch as a beginner. Still learning",
     "English C2 with certificate",
   ],
   Hobbies: [
@@ -100,7 +93,7 @@ export const RESUME_DATA = {
       title: "My Landing Page",
       techStack: ["HTML/CSS"],
       description:
-        "I created a landing page for a little quiz. This is a tradition for our new members of Selcukchain",
+        "I created a landing page for a little quiz. This is a tradition for our new members of Selcukchain. I wrote the site in Deutsch so I studied Deutsch at the same time.",
       link: {
         label: "",
         href: "",
@@ -108,9 +101,8 @@ export const RESUME_DATA = {
     },
     {
       title: "CryptoZombies TR",
-      techStack: ["Phython"],
-      description:
-        "I am developing a platform with the help of AI that allows users to create industrial areas which are capable of self-sustain. With the power of AI, my target is creating a high efficient workspace with clean energy sources for the community.",
+      techStack: [""],
+      description:"I am translating an education tool which contains solidity and smart contracts, for our members in Selcukchain. Coding community in Turkey doesn't have any documentations in their own language.Translating documentations is pretty important for communities. ",
       link: {
         label: "",
         href: "",
