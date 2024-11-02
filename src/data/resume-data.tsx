@@ -8,7 +8,7 @@ export const RESUME_DATA = {
   about:
     "Self-taught Frontend Developer.",
   summary:
-    "As a Frontend Developer, I am currently studying on JS. I am passionate about improving myself about anything. I want to be a Blockchain Developer in the future.",
+    "I am a Frontend Developer currently focusing on JavaScript. I'm passionate about self-improvement and eager to expand my skills. My goal is to become a Blockchain Developer in the future.",
   avatarUrl:
     "https://avatars.githubusercontent.com/u/146973881?s=400&u=dc48299506081eb969395ff89642c029025d0492&v=4",
   personalWebsiteUrl: "https://",
@@ -54,7 +54,7 @@ export const RESUME_DATA = {
       start: "October 2023",
       end: "",
       description:
-        "As a community , we are trying to improve ourselves. We are trying to create projects and work on Blockchain technologies together.",
+        "As a community, we work together to enhance our skills, create projects, and explore blockchain technologies.",
     },
   ],
   skills: [
@@ -65,8 +65,8 @@ export const RESUME_DATA = {
     "SQL",
     "Git/Github",
     "C++",
-    "Deutsch as a beginner. Still learning",
-    "English C2 with certificate",
+    "Beginner in German",
+    "English at C2 (certified)",
   ],
   Hobbies: [
     "Listening to music",
@@ -74,8 +74,7 @@ export const RESUME_DATA = {
     "Motorsports",
     "Reading",
     "Body building",
-    "Motocycle riding",
-    "Motocycle maintaining and repairing",
+    "Motorcycle riding, maintenance, and repair",
     "Sailing",
   ],
   projects: [
@@ -83,7 +82,7 @@ export const RESUME_DATA = {
       title: "AI Powered Smart Industry4.0 Settlement Project",
       techStack: ["Python"],
       description:
-        "I am developing a platform with the help of AI that allows users to create industrial areas which are capable of self-sustain. With the power of AI, my target is creating a high efficient workspace with clean energy sources for the community.",
+        "I am developing a platform that enables users to create self-sustaining industrial areas with the support of AI. The goal is to create an energy-efficient workspace powered by clean energy sources for community use.",
       link: {
         label: "",
         href: "",
@@ -93,7 +92,7 @@ export const RESUME_DATA = {
       title: "My Landing Page",
       techStack: ["HTML/CSS"],
       description:
-        "I created a landing page for a little quiz. This is a tradition for our new members of Selcukchain. I wrote the site in Deutsch so I studied Deutsch at the same time.",
+        "I created a landing page for a quiz, which is a tradition for new Selcukchain members. The page is in German, allowing me to practice the language while working on the project.",
       link: {
         label: "",
         href: "",
@@ -102,7 +101,7 @@ export const RESUME_DATA = {
     {
       title: "CryptoZombies TR",
       techStack: [""],
-      description:"I am translating an education tool which contains solidity and smart contracts, for our members in Selcukchain. Coding community in Turkey doesn't have any documentations in their own language.Translating documentations is pretty important for communities. ",
+      description:"I am translating an educational tool that covers Solidity and smart contracts for Selcukchain members. Since coding documentation in Turkish is limited, these translations are essential for supporting the Turkish coding community.",
       link: {
         label: "",
         href: "",
